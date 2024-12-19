@@ -3,4 +3,4 @@ from .models import Post
 from django.utils.timezone import now
 
 def post_list(request):
-    return render(request, '/home/BarkiaFiras/barkiafiras.pythonanywhere.com/blog/templates/blog/post_list.html', {})
+    return render(request, '/home/BarkiaFiras/barkiafiras.pythonanywhere.com/blog/post_list.html', {})
